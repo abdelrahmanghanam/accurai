@@ -872,7 +872,7 @@ const ChatInterface: React.FC = () => {
                     </button>
                 </div>
                 <div style={styles.helpText} dir="ltr">
-                    Press Enter to send • Shift+Enter for new line
+                    Press Enter to send • Shift+Enter for new line.
                 </div>
             </div>
         </div>
