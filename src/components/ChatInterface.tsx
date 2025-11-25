@@ -593,7 +593,7 @@ const ChatInterface: React.FC = () => {
         setIsLoading(true);
 
         try {
-            const response = await fetch('/api/chat/accurai/', {
+            const response = await fetch('https://sap-accur-integration-zeta.vercel.app/api/v1/eam/dottechai/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
